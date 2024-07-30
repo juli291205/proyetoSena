@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(18, 95, 91);
+}
+
+@import "index";
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.colorrojo {
+    color: firebrick;
+    text-align: center;
+    font-size: 25px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 62px;
+}
+
+.fuenteinte1 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+}
+
+.whatsapp img {
+    height: 50px;
+    width: 50px;
+}
+
+/*form*/
+
+fieldset {
+    text-decoration-color: white;
+}
+
+
+.textblanco {
+    color: white;
+}
+
+.card2 {
+    background-image: url(../img/motoform.jpg);
+    background-position: center;
+    width: 330px;
+    height: 750px;
+    margin: 20px;
+    padding: 20px;
+    border: double 5px gray;
+}
+
+
+/*GALERIA*/
+
+.caja_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: black;
+    width: 300PX;
+    height: 500PX;
+    margin: 20px;
+    padding: 20px;
+    border: double 5px gray;
+}
+
+.card__imagen {
+    display: block;
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.card__titulo {
+    color: rgba(220, 220, 220, 0.582);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card__parrafo{
+    color: white;
+}
+
+#carouselExampleControls {
+    width: 400px;
+    margin: auto;
+    border: double 5px gray;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+.bottonytop {
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+
+/* footer*/
+
+footer img {
+    height: 50px;
+    width: 50px;
+
+}
+
+footer {
+    display: flex;
+    background-color:rgba(63, 177, 158, 0.671);
+    padding: 28px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+.footerlogo {
+    display: flex;
+    gap: 30px;
+}
