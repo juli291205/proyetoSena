@@ -1,0 +1,148 @@
+header {
+    background-color: rgba(63, 177, 158, 0.671);
+    padding: 10px 20px;
+  }
+  
+  header .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: firebrick;
+  }
+  
+  header ul {
+    padding-right: 20px;
+    gap: 20px;
+    list-style-type: none;
+  }
+  
+  header li a {
+    transition: 0.3s;
+    padding: 10px;
+  }
+  
+  header li a:hover {
+    background-color: rgba(93, 219, 228, 0.8);
+    border-radius: 10px;
+    color: white;
+  }
+/* Estilo para el formulario de contacto */
+.card2 {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card2 h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  #imagenfondo {
+    background: linear-gradient(145deg, rgba(63, 177, 158, 0.3), rgba(220, 220, 220, 0.3));
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  #imagenfondo fieldset {
+    border: none;
+  }
+  
+  #imagenfondo label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  #imagenfondo input, 
+  #imagenfondo textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  #imagenfondo input[type="submit"], 
+  #imagenfondo input[type="reset"] {
+    background-color: #3fb19e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 10px 20px;
+  }
+  
+  #imagenfondo input[type="submit"]:hover, 
+  #imagenfondo input[type="reset"]:hover {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #imagenfondo textarea {
+    resize: none;
+  }
+/* Ícono de WhatsApp */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .whatsapp img {
+    height: 60px;
+    width: 60px;
+    transition: transform 0.3s ease;
+  }
+  
+  .whatsapp img:hover {
+    transform: scale(1.2);
+  }
+  footer {
+    background-color: rgba(63, 177, 158, 0.9);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  footer h4 {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .footerlogo {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footerlogo img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+  }
+  
+  .footerlogo img:hover {
+    transform: scale(1.1);
+  }
+/* Añadir animaciones */
+.logo img, .navbar-brand {
+    animation: animate__backInLeft 1s;
+  }
+  
+  .whatsapp {
+    animation: animate__rubberBand infinite 2s;
+  }
+  
+  footer {
+    animation: animate__fadeInUp 1s;
+  }
+          
